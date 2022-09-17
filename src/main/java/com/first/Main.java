@@ -8,8 +8,8 @@ public class Main {
                 forest[i][j] = false;
             }
         }
-        forest[3][7] = true;
+        forest[9][0] = true;
 
-        new Thread(new BeeHive(forest, 3)).start();
+        new Thread(new BeeHive(forest, 20)).start();
     }
 }
